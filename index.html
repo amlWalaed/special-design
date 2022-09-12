@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>special Design</title>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- <link rel="stylesheet" href="fonts/Cairo/Cairo-VariableFont_wght.ttf"/> -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;500;600;700;800;1000&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+        <script src="js/headroom.js"></script>
+    </head>
+    <body>
+    <!-- setting box -->
+    <div class="settings-box">
+        <span class="icon-container"><i class="fa fa-gear"></i></span>
+        <div class="setting-container">
+            <div class="color-list">
+                <div class="option-box">
+                <h3>Color</h3>
+                <ul>
+                    <li class="active" data-color="#fd7e14"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            </div>
+            <div class="random-background">
+                <div class="option-box">
+                    <h3>Random Background</h3>
+                    <div>
+                        <span class="yes active" data-background="yes">yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+            </div>
+            <div class="show-bullets">
+                <div class="option-box">
+                    <h3>show-bullets</h3>
+                    <div>
+                        <span class="yes active" data-display="block">yes</span>
+                        <span class="no" data-display="none">No</span>
+                    </div>
+                </div>
+            </div>
+            <button class="reset-button">Rest Option</button>
+        </div>
+    </div>
+    <!-- setting box -->
+    <!-- nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section="#about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section="#skills">
+            <div class="tooltip">Skills</div>
+        </div>
+        <div class="bullet" data-section="#gallery">
+            <div class="tooltip">Gallery</div>
+        </div>
+        <div class="bullet" data-section="#timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section="#features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-section="#testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+    </div>
+    <!-- nav bullets -->
+    <div class="header-area">
+            <div class="logo"><span>Special</span> Design</div>
+            <div class="links-containers">
+            <ul class="links">
+                <li data-section="#about-us"><a href="#">About</a></li>
+                <li data-section="#skills"><a href="#">Skills</a></li>
+                <li data-section="#gallery"><a href="#">Gallery</a></li>
+                <li data-section="#timeline"><a href="#">Timeline</a></li>
+                <li data-section="#features"><a href="#">Features</a></li>
+                <li data-section="#testimonials"><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+    <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            
+        </button>
+    </div>
+</div>
+    <!-- landing page -->
+    <div class="landing-page">
+        <div class="overly"></div>
+        <div class="container">
+            <div class="introduction-text">
+                <h1>We Are <span>Creative</span> Agency</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, praesentium!</p>
+            </div>
+        </div>
+    </div>
+    <!-- landing page -->
+    <!-- about section -->
+    <div class="container">
+    <div class="about-us" id="about-us">
+        <div class="about-info">
+            <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores non autem porro magni animi aliquam fuga, quaerat eligendi rem sit facilis vero esse, tempora, illo recusandae natus iusto numquam!</p>
+        </div>
+        <div class="about-img">
+            <img src="img/project-3.jpg">
+        </div>
+    </div>
+</div>
+    <!-- about section -->
+    <!-- skills section -->
+    <div class="skills" id="skills">
+        <div class="container">
+            <h1>Our Skills</h1>
+            <div class="skill-box">
+                <span class="skill-name">Hmtl</span>
+                <div class="skill-progress"><span data-progress="80%"></span></div>
+            </div>
+            <div class="skill-box">
+                <span class="skill-name">Html5</span>
+                <div class="skill-progress"><span data-progress="90%"></span></div>
+            </div>
+            <div class="skill-box">
+                <span class="skill-name">Css</span>
+                <div class="skill-progress"><span data-progress="85%"></span></div>
+            </div>
+            <div class="skill-box">
+                <span class="skill-name">Css3</span>
+                <div class="skill-progress"><span data-progress="75%"></span></div>
+            </div>
+            <div class="skill-box">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-progress"><span data-progress="95%"></span></div>
+            </div>
+        </div>
+    </div>
+    <!-- skills section -->
+    <!-- gallery section -->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <div class="image-box">
+                <img src="img/01.jpg" alt="01.jpg">
+                <img src="img/02.jpg" alt="02.jpg">
+                <img src="img/03.jpg" alt="03.jpg">
+                <img src="img/04.jpg" alt="04.jpg">
+                <img src="img/05.jpg" alt="05.jpg">
+                <img src="img/06.jpg" alt="06.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- gallery section -->
+    <div class="time-line" id="timeline">
+        <div class="container">
+        <div class="year">
+            2018
+        </div>
+        <div class="left">
+            <div class="content">
+                <h3>Texting Heading</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quaerat ad! Perspiciatis laboriosam facilis maiores id recusandae officia quaerat debitis voluptates hic quod itaque doloremque reiciendis inventore voluptatibus incidunt delectus tempore temporibus obcaecati officiis voluptate cumque aliquam facere, nobis dolores. Fuga reprehenderit rem doloremque? Suscipit animi doloremque corporis eius delectus qui tempora provident dolorum blanditiis consequatur aperiam, itaque tenetur at harum excepturi molestiae ea ipsa rem distinctio iste ad nulla accusamus vitae temporibus. Incidunt amet, fugiat aspernatur quibusdam modi in deleniti vero architecto culpa consectetur quo eligendi officia natus voluptatem laudantium est, vel, nobis magnam sunt rem. Perspiciatis, eum suscipit.
+                </p>
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+        <div class="right">
+            <div class="content">
+                <h3>Texting Heading</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quaerat ad! Perspiciatis laboriosam facilis maiores id recusandae officia quaerat debitis voluptates hic quod itaque doloremque reiciendis inventore voluptatibus incidunt delectus tempore temporibus obcaecati officiis voluptate cumque aliquam facere, nobis dolores. Fuga reprehenderit rem doloremque? Suscipit animi doloremque corporis eius delectus qui tempora provident dolorum blanditiis consequatur aperiam, itaque tenetur at harum excepturi molestiae ea ipsa rem distinctio iste ad nulla accusamus vitae temporibus. Incidunt amet, fugiat aspernatur quibusdam modi in deleniti vero architecto culpa consectetur quo eligendi officia natus voluptatem laudantium est, vel, nobis magnam sunt rem. Perspiciatis, eum suscipit.
+                </p>
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+        <div class="year">
+            2018
+        </div>
+        <div class="left">
+            <div class="content">
+                <h3>Texting Heading</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quaerat ad! Perspiciatis laboriosam facilis maiores id recusandae officia quaerat debitis voluptates hic quod itaque doloremque reiciendis inventore voluptatibus incidunt delectus tempore temporibus obcaecati officiis voluptate cumque aliquam facere, nobis dolores. Fuga reprehenderit rem doloremque? Suscipit animi doloremque corporis eius delectus qui tempora provident dolorum blanditiis consequatur aperiam, itaque tenetur at harum excepturi molestiae ea ipsa rem distinctio iste ad nulla accusamus vitae temporibus. Incidunt amet, fugiat aspernatur quibusdam modi in deleniti vero architecto culpa consectetur quo eligendi officia natus voluptatem laudantium est, vel, nobis magnam sunt rem. Perspiciatis, eum suscipit.
+                </p>
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+        <div class="right">
+            <div class="content">
+                <h3>Texting Heading</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quaerat ad! Perspiciatis laboriosam facilis maiores id recusandae officia quaerat debitis voluptates hic quod itaque doloremque reiciendis inventore voluptatibus incidunt delectus tempore temporibus obcaecati officiis voluptate cumque aliquam facere, nobis dolores. Fuga reprehenderit rem doloremque? Suscipit animi doloremque corporis eius delectus qui tempora provident dolorum blanditiis consequatur aperiam, itaque tenetur at harum excepturi molestiae ea ipsa rem distinctio iste ad nulla accusamus vitae temporibus. Incidunt amet, fugiat aspernatur quibusdam modi in deleniti vero architecto culpa consectetur quo eligendi officia natus voluptatem laudantium est, vel, nobis magnam sunt rem. Perspiciatis, eum suscipit.
+                </p>
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+    </div>
+</div>
+<!-- features section -->
+<div class="feature-section" id="features">
+    <div class="container">
+        <h1>Our Features</h1>
+        <div class="feat-box">
+            <img src="img/icon-01.png">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+        <div class="feat-box">
+            <img src="img/icon-02.jpg">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+        <div class="feat-box">
+            <img src="img/icon-03.png">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+        <div class="feat-box">
+            <img src="img/icon-04.png">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+        <div class="feat-box">
+            <img src="img/icon-05.png">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+        <div class="feat-box">
+            <img src="img/icon-06.jpg">
+            <h3>Devekopment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae odio illum aliquid tempora obcaecati, ea molestiae quam nostrum repudiandae odit.</p>
+            </div>
+    </div>
+</div>
+<!-- features section -->
+<!-- testimonials section -->
+<div class="testimonials" id="testimonials">
+    <div class="container">
+        <h1>Testimonials</h1>
+        <div class="test-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid iusto amet illo consequatur numquam delectus sit odit autem voluptates molestiae, adipisci fugit error velit nam quod assumenda doloremque voluptate.</p>
+            <div class="person-info">
+                <img src="https://via.placeholder.com/80/DDD">
+                <h4>Aml Walaed</h4>
+                <p>Developer</p>
+            </div>
+        </div>
+        <div class="test-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid iusto amet illo consequatur numquam delectus sit odit autem voluptates molestiae, adipisci fugit error velit nam quod assumenda doloremque voluptate.</p>
+            <div class="person-info">
+                <img src="https://via.placeholder.com/80/DDD">
+                <h4>Aml Walaed</h4>
+                <p>Developer</p>
+            </div>
+        </div>
+        <div class="test-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid iusto amet illo consequatur numquam delectus sit odit autem voluptates molestiae, adipisci fugit error velit nam quod assumenda doloremque voluptate.</p>
+            <div class="person-info">
+                <img src="https://via.placeholder.com/80/DDD">
+                <h4>Aml Walaed</h4>
+                <p>Developer</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- testimonials section -->
+<div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="">
+            <div class="right">
+                <input type="text" placeholder="Enter Your Name" name="username"/>
+                <input type="email" placeholder="Enter Your E-mail" name="email"/>
+                <input type="text" placeholder="Enter Your Phone" name="phone"/>
+                <input type="text" placeholder="Enter Your Subject" name="subject"/>
+            </div>
+            <div class="left">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="send">
+            </div>
+            <div class="clearFloat"></div>
+        </form>
+    </div>
+
+</div>
+<!-- testimonials section -->
+<footer>Created BY Aml Walaed</footer>
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
