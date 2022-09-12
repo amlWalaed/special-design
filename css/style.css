@@ -498,7 +498,13 @@
     border: 2px solid #ddd;
     width: calc((100% / 3) - 10px);
     cursor: pointer;
-    height: 250px;
+    min-height: 250px;
+}
+@media (max-width:567px){
+    .gallery .image-box img{
+        width: 100%;
+        
+    }
 }
 .popup-overlay {
         position: fixed;
